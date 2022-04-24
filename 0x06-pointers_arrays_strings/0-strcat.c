@@ -1,24 +1,24 @@
-# inclure  " main.h "
+#include "main.h"
 
-/* *
-* _strcat - concatène deux chaînes
-* @dest : chaîne à modifier.
-* @src : chaîne à copier à la fin de la fin.
-* Retour : pointeur vers dest.
+/**
+ * _strcat - concatenates two strings
+ * @dest: string to be modified.
+ * @src: string to be copied to the end of end.
+ * Return: pointer to dest.
  */
-char * _strcat ( char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
-	entier je = 0 ;
+	int i = 0;
 
-	for (; *(dest + i) != ' \0 ' ; i++)
+	for (; *(dest + i) != '\0'; i++)
 	{
 	}
-	pour (; *src != ' \0 ' ; src++)
+	for (; *src != '\0'; src++)
 	{
-		*(dest + je) = *src ;
-		je++ ;
+		*(dest + i) = *src;
+		i++;
 	}
-	*(dest + je) = *src ;
+	*(dest + i) = *src;
 
-	retour (dest);
+	return (dest);
 }
