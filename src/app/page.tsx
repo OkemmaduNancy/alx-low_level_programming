@@ -1,16 +1,13 @@
 import Navbar from "@/components/Navbar";
-
+import Hero from "@/components/Hero";
+import About from "@/components/About";
 export default function Home() {
   return (
     <>
       <Navbar />
       <main>
-        <section
-          id="home"
-          className="flex min-h-screen items-center justify-center"
-        >
-          <p className="text-cream/60">Hero section coming next</p>
-        </section>
+        <Hero />
+        <About />
       </main>
     </>
   );
