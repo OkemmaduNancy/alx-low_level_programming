@@ -28,10 +28,10 @@ export default function About() {
             Building skills, one class at a time
           </h2>
           <p className="mt-5 text-ink/70">
-            Goldfield Academy helps students learn in-demand digital skills
-            through live, guided classes. Whether you are starting from scratch
-            or levelling up, we make learning simple, practical and accessible
-            from wherever you are.
+            We help people and businesses grow in the digital world. Goldfield
+            Digital Academy is a practical learning platform committed to
+            equipping aspiring creators, entrepreneurs, and professionals with
+            relevant digital skills for today's economy.
           </p>
         </div>
 
