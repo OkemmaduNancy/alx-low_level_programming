@@ -39,7 +39,7 @@ export default function Hero() {
         </div>
 
         {/* Quick facts */}
-        <dl className="mt-16 grid w-full max-w-3xl grid-cols-1 gap-6 border-t border-gold/20 pt-8 sm:grid-cols-3">
+        {/* <dl className="mt-16 grid w-full max-w-3xl grid-cols-1 gap-6 border-t border-gold/20 pt-8 sm:grid-cols-3">
           <div>
             <dt className="text-sm text-cream/60">Class format</dt>
             <dd className="mt-1 text-lg font-semibold text-cream">
@@ -56,7 +56,7 @@ export default function Hero() {
               Pay and join in minutes
             </dd>
           </div>
-        </dl>
+        </dl> */}
       </div>
     </section>
   );
