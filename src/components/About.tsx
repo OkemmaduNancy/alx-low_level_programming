@@ -39,7 +39,7 @@ export default function About() {
           {highlights.map((item) => (
             <div
               key={item.title}
-              className="rounded-2xl border border-ink/10 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+              className="rounded-2xl border border-ink/10 bg-white p-8 shadow-md transition hover:-translate-y-1 hover:shadow-xl"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-ink text-xl">
                 {item.icon}
